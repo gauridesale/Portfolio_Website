@@ -1,0 +1,83 @@
+/* common for all pages */
+#box {
+    margin: 10px 80px;
+    height: 700px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+section {
+    padding: 50px 0 0;
+
+}
+
+/* logo css*/
+.title {
+    font-size: 30px;
+}
+
+.title:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+
+/* home page bootstap icon css  */
+.icon-link:hover {
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    transform: scale(1.2);
+}
+
+/* css for all btn */
+.download_btn:hover {
+    text-shadow: 0 0 20px rgba(17, 148, 172, 0.9);
+    transform: scale(1.2);
+}
+
+
+/* home page image css */
+.home_img {
+
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+
+}
+
+.home_img:hover {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+    transform: scale(1.02);
+}
+
+/* nav-link common css */
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    transform: scale(1.04);
+    color: white;
+    text-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+}
+
+/* css to highliting the page we are on */
+.zoom-out {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* about skill img css */
+.skills_img {
+    height: 50px;
+    width: 50px;
+}
+
+/* contact page heading css */
+.contact-effect {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* css for about te */
+
+.about_text {
+    text-align: justify;
+}

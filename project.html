@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favi.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+    <div id="box">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light mt-3">
+            <div class=" container">
+                <!-- Logo -->
+                <a href="index.html" class="navbar-brand">
+                    <h3 class="title fw-bold text-dark">
+                        Portfolio</h3>
+                </a>
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                    aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class=" navbar-collapse collapse justify-content-end align-center " id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a href="index.html" class="nav-link fw-bold ">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="about.html" class="nav-link fw-bold">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="project.html" class="nav-link fw-bold zoom-out">Project</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="contact.html" class="nav-link fw-bold btn text-light px-3 bg-secondary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <section>
+            <!-- Large Screen Carousel -->
+
+            <div id="carouselExample" class="carousel slide d-none d-sm-block">
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/yt.jpeg" class="card-img-top" alt="..." style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Youtube-clone</h5>
+                                            <p class="card-text about_text">Utilizing the MERN stack
+                                                showcasing proficiency in web development, database
+                                                management,integration of modern technologies for seamless video
+                                                streaming and user interaction.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/sorting_vis.png" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sorting Visualizer</h5>
+                                            <p class="card-text about_text">The sorting visualization
+                                                project is a web
+                                                application, allows users to visualize the sorting process. Interactive
+                                                web app visualizes sorting
+                                                algorithms array rearrangement.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/todo.jpeg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">To Do List </h5>
+                                            <p class="card-text about_text"> A innovative to-do list project,
+                                                revolutionizing task management
+                                                Empowering users with a simple platform to organize daily
+                                                tasks. Efficient task management made simple with this project.
+                                            </p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/blog.jpeg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blog App </h5>
+                                            <p class="card-text about_text">Blog app using the MERN stack offers users a
+                                                modern, feature-rich, and interactive platform to share
+                                                and consume content.
+                                                Blog App provides features like adding, editing, and reading posts.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/phishing .jpg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Phishing Detection </h5>
+                                            <p class="card-text about_text">An advanced Phishing Detection Extension
+                                                utilizing Machine Learning Algorithms effectively distinguishes between
+                                                legitimate and phishing websites, which help us safegaurd our
+                                                confidential
+                                                data.
+                                            </p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/images.jpeg " class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bookstore Management </h5>
+                                            <p class="card-text about_text"> A application designed to streamline and
+                                                automate the
+                                                operations of a bookstore. It provides platform for
+                                                managing aspects like adding,
+                                                updating, reading, and deleting.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- for small screen  Carousel -->
+            <div id="carouselExampleSmall" class="carousel slide d-sm-none">
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/yt.jpeg" class="card-img-top" alt="..." style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Youtube-clone</h5>
+                                            <p class="card-text about_text">Utilizing the MERN stack
+                                                showcasing proficiency in web development, database
+                                                management,integration of modern technologies for seamless video
+                                                streaming and user interaction.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/sorting_vis.png" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sorting Visualizer</h5>
+                                            <p class="card-text about_text">The sorting visualization
+                                                project is a web
+                                                application, allows users to visualize the sorting process. Interactive
+                                                web app visualizes sorting
+                                                algorithms array rearrangement.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/images.jpeg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title about_text">Bookstore Management </h5>
+                                            <p class="card-text about_text"> A application designed to streamline and
+                                                automate the
+                                                operations of a bookstore. It provides platform for
+                                                managing aspects like adding,
+                                                updating, reading, and deleting.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/blog.jpeg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title ">Blog App </h5>
+                                            <p class="card-text about_text">Blog app using the MERN stack offers users a
+                                                modern, feature-rich, and interactive platform to share
+                                                and consume content.
+                                                Blog App provides features like adding, editing, and reading posts.</p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/phishing .jpg" class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title ">Phishing Detection </h5>
+                                            <p class="card-text about_text">An advanced Phishing Detection Extension
+                                                utilizing Machine Learning Algorithms effectively distinguishes between
+                                                legitimate and phishing websites, which help us safegaurd our
+                                                confidential
+                                                data.
+                                            </p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="images/todo.jpeg " class="card-img-top" alt="..."
+                                            style="height: 230px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">To Do List </h5>
+                                            <p class="card-text about_text"> A innovative to-do list project,
+                                                revolutionizing task management
+                                                Empowering users with a simple platform to organize daily
+                                                tasks. Efficient task management made simple with this project.
+                                            </p>
+                                            <a href="#" class="btn bg-primary px-5 m-1  ">Visit</a>
+                                            <a href="https://github.com/" class="btn bg-primary px-4"><i
+                                                    class="bi bi-github text-light px-3"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel controls -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSmall"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSmall"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+
+
+    </div>
+    <!-- Bootstrap JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
