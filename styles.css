@@ -81,3 +81,10 @@ section {
 .about_text {
     text-align: justify;
 }
+
+@media (max-width:767px) {
+    #intro {
+        overflow: auto;
+    }
+
+}
